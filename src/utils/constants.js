@@ -1,6 +1,6 @@
 export const NAVIGATION_LINKS = [
-  { name: 'Discover', href: 'Collections' },
-  { name: 'Artisans', href: 'Artisans' },
+  { name: 'Discover', href: '/Collections' },
+  { name: 'Artisans', href: '/Artisans' },
   { name: 'Collections', href: '/Collections' },
   { name: 'About', href: '/About' }
  
