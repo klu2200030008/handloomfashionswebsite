@@ -2,6 +2,7 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
 import { useAuthStore } from '../store/authStore';
+import { Link } from 'react-router-dom';  // Import Link
 
 export default function Login() {
   const { register, handleSubmit, formState: { errors } } = useForm();
@@ -61,6 +62,16 @@ export default function Login() {
               </button>
             </div>
           </form>
+
+          {/* Add link to Signup page */}
+          <div className="mt-6 text-center">
+            <p className="text-sm text-gray-600">
+              Don't have an account?{' '}
+              <Link to="/signup" className="font-medium text-indigo-600 hover:text-indigo-500">
+                Sign up here
+              </Link>
+            </p>
+          </div>
         </div>
       </div>
     </div>
