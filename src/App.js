@@ -14,6 +14,7 @@ import ProtectedRoute from './components/auth/ProtectedRoute';
 import { useAuthStore } from './store/authStore';
 import './styles/global.css';
 import Admin from './pages/Admin';
+import Artisian from './pages/Artisian';
 
 function App() {
   const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
@@ -32,6 +33,7 @@ function App() {
             <Route path="/artisans" element={<Artisans />} />
             <Route path="/about" element={<About />} />
             <Route path="/admin" element={<Admin />} />
+            <Route path="/artisan" element={<Artisian />} />
             
             <Route
               path="/admin/*"
