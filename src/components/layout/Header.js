@@ -41,6 +41,9 @@ export default function Header() {
       <User className="w-6 h-6" />
     </button>
   </Link>
+  <button className="md:hidden p-2 text-gray-600 hover:text-indigo-900">
+              <Menu className="w-6 h-6" />
+            </button>
 </div>
         </div>
       </div>
