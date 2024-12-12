@@ -1,5 +1,11 @@
 import React from 'react';
-import { FOOTER_LINKS } from '../../utils/constants';
+
+const FOOTER_LINKS = [
+  { name: 'Our Story', href: '#' },
+  { name: 'Artisan Community', href: '#' },
+  { name: 'Sustainability', href: '#' },
+  { name: 'Contact Us', href: '#' }
+];
 
 export default function Footer() {
   return (

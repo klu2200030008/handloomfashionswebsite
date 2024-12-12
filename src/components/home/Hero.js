@@ -15,7 +15,7 @@ export default function Hero() {
       
       <div className="container relative py-24 sm:py-32">
         <h1 className="heading-primary text-white">
-          Artisanal Handloom Fashion
+         SNS HANDLOOM FASHIONS
         </h1>
         <p className="mt-6 max-w-3xl text-xl text-gray-300">
           Discover unique handcrafted textiles from skilled artisans around the world. 
