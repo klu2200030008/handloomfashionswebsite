@@ -48,6 +48,19 @@ export const FEATURED_PRODUCTS = [
     createdAt: new Date()
   },
   {
+    id: '3',
+    name: 'Handloom Wool Shawl',
+    description: 'Traditional Kashmir wool shawl with paisley design',
+    price: 199,
+    images: ['https://www.libas.in/cdn/shop/files/29226.PT02.jpg?v=1727423159&width=1800'],
+    artisanId: 'a3',
+    category: 'Shawls',
+    materials: ['Wool'],
+    stock: 8,
+    createdAt: new Date()
+  },
+
+  {
     id: '4',
     name: 'Handloom Wool Shawl',
     description: 'Traditional Kashmir wool shawl with paisley design',

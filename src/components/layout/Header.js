@@ -3,7 +3,6 @@ import { ShoppingCart, User, Menu } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const NAVIGATION_LINKS = [
-  { name: 'Discover', href: '/Discover' },
   { name: 'Artisans', href: '/Artisans' },
   { name: 'Collections', href: '/Collections' },
   { name: 'About', href: '/About' },
