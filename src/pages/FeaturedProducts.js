@@ -1,6 +1,6 @@
 import React from 'react';
-import ProductCard from '../product/ProductCard';
-import { FEATURED_PRODUCTS } from '../../utils/productData';
+import ProductCard from '../components/product/ProductCard';
+import { FEATURED_PRODUCTS } from '../utils/productData';
 
 export default function FeaturedProducts() {
   return (
