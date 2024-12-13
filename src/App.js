@@ -15,6 +15,12 @@ import { useAuthStore } from './store/authStore';
 import './styles/global.css';
 import Admin from './pages/Admin';
 import Artisian from './pages/Artisian';
+import Women from './pages/Women';
+import Men from './pages/Men';
+import Kids from './pages/Kids';
+import Decor from './pages/Decor';
+import Cart from './pages/Cart';
+import Contact from './pages/Contact';
 
 function App() {
   const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
@@ -34,6 +40,12 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/admin" element={<Admin />} />
             <Route path="/artisan" element={<Artisian />} />
+            <Route path="/Women" element={<Women />} />
+            <Route path="/Men" element={<Men/>} />
+            <Route path="/Kids" element={<Kids />} />
+            <Route path="/Decor" element={<Decor />} />
+            <Route path="/Cart" element={<Cart />} />
+            <Route path="/Contact" element={<Contact />} />
             
             <Route
               path="/admin/*"

@@ -1,10 +1,10 @@
 import React from 'react';
 
 const FOOTER_LINKS = [
-  { name: 'Our Story', href: '#' },
-  { name: 'Artisan Community', href: '#' },
-  { name: 'Sustainability', href: '#' },
-  { name: 'Contact Us', href: '#' }
+  { name: 'Our Story', href: '' },
+  { name: 'Artisan Community', href: '' },
+  { name: 'Sustainability', href: '' },
+  { name: 'Contact Us', href: 'Contact' }
 ];
 
 export default function Footer() {

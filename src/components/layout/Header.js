@@ -1,10 +1,9 @@
 import React from 'react';
 import { ShoppingCart, User, Menu } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 const NAVIGATION_LINKS = [
-  { name: 'Artisans', href: '/Artisans' },
   { name: 'Collections', href: '/Collections' },
+  { name: 'Artisans', href: '/Artisans' },
   { name: 'About', href: '/About' },
 ];
 
@@ -27,6 +26,7 @@ export default function Header() {
                 key={link.name}
                 to={link.href}
                 className="text-gray-700 hover:text-indigo-900 font-medium"
+                
               >
                 {link.name}
               </Link>

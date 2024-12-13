@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, ShoppingBag } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function ProductCard({ product }) {
   return (
@@ -21,10 +22,12 @@ export default function ProductCard({ product }) {
         </div>
         <p className="text-sm font-medium text-gray-900">${product.price}</p>
       </div>
+      <Link to="/Cart">
       <button className="mt-4 w-full flex items-center justify-center gap-2 bg-indigo-900 text-white py-2 px-4 rounded-md hover:bg-indigo-800 transition-colors">
         <ShoppingBag className="w-4 h-4" />
         Add to Cart
       </button>
+      </Link>
     </div>
   );
 }

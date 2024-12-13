@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import FeaturedProducts from './FeaturedProducts';
 import { ArrowRight } from 'lucide-react';
 
@@ -25,13 +25,17 @@ export default function Home() {
           Each piece tells a story of tradition, craftsmanship, and sustainable fashion.
         </p>
         <div className="mt-10 flex gap-4">
-          <button className="btn btn-primary inline-flex items-center">
+        <Link to="/Collections">
+          <button  className="btn btn-primary inline-flex items-center">
             Shop Collection
             <ArrowRight className="ml-2 w-5 h-5" />
           </button>
+       </Link>
+       <Link to="/Artisans">
           <button className="btn btn-secondary inline-flex items-center">
             Meet Our Artisans
           </button>
+          </Link>
         </div>
       </div>
     </div>
