@@ -1,7 +1,6 @@
 import React from 'react';
 import { FEATURED_PRODUCTS } from '../utils/productData';
 import ProductCard from '../components/product/ProductCard';
-import { Link} from 'react-router-dom';
 
 /*const NAVIGATION_LINKS = [
   { name: 'Women', href: '/Women' },
