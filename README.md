@@ -1,6 +1,5 @@
 <<<<<<< HEAD
-# HandloomFashionSystem
-Handloom Fashion System #JFSD-SDP
+#Handloom Fashion System #JFSD-SDP
 =======
 # Getting Started with Create React App
 
